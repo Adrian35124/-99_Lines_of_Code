@@ -1,20 +1,10 @@
-let friends = ["Jon" + "Brian" + "Jose" + "Rodrigo" + "Jessica"]
+let friends = ["Jon", "Brian", "Jose", "Rodrigo", "Jessica"]
 for (let i = 0; i < friends.length; i++) {
-    let num = 99;
-    while (num >0) {
-        console.log(num + "files of code in the file");
-        console.log(num + "files lines of code.");
-        console.log(friends[i] + "strikes one out, clears it all out")
-        num = num - 1;
-        if (num > 0)
-        {
-            console.log(num + "files of code in the files.");
-        }
-        else{
-            console.log("No More files of code in the file");
-        }
-    }
+   for (let index = 99; index > 0; index--) {
+       if(index > 2) {
+           console.log(index + " lines of code in the file, " + index + " lines of code, " + friends[i] + " takes one out debugs it out, " + (index - 1) + ' lines of code in the file!') 
+       } 
+       
 
+   }
 }
-
-
